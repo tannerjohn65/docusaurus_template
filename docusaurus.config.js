@@ -69,10 +69,11 @@ const config = {
     ({
       navbar: {
         //サイトに表示したいタイトルやアイコンの設定
-        title: 'DevIO 2022',
+        // title: 'DevIO 2022',
         logo: {
           alt: 'test website',
-          src: 'img/docusaurus.svg',
+          // src: 'img/docusaurus.svg',
+          src:'img/logo_devio2022.png'
           
         },
         items: [
