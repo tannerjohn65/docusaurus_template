@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -7,17 +7,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   //Meta Data サイトに表示されるタイトルなどではない
-  title: 'サイトのタイトルを書く場所',
+  title: 'DevIO DEMOサイト - Tanner',
   tagline: '詳細を書く場所',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
 
   presets: [
     [
@@ -28,10 +24,6 @@ const config = {
           remarkPlugins: [require("mdx-mermaid")],
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/', 
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false,
         theme: {
@@ -64,7 +56,6 @@ const config = {
         logo: {
           alt: 'test website',
           src: 'img/docusaurus.svg',
-          // src:'img/logo_devio2022.png'
           
         },
         items: [
