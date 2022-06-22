@@ -6,10 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  //Meta Data サイトに表示されるタイトルなどではない
-  title: 'DevIO DEMOサイト - Tanner',
-  tagline: '詳細を書く場所',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Demoサイト',
+  tagline: '青空文庫から抜粋',
+  url: 'https://iridescent-tarsier-893c49.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -33,8 +32,6 @@ const config = {
     ],
   ],
   themes: [
-    // 簡易ローカル検索のためのプラグイン
-    // https://github.com/easyops-cn/docusaurus-search-local
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
